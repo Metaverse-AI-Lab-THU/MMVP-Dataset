@@ -1,0 +1,28 @@
+# MMVP
+<img src="docs/teaser.png" width="100%">
+
+This repo is used for optimzation and visualization for MMVP dataset:
+
+MMVP: A Multimodal MoCap Dataset with Vision and Pressure Sensors  
+[He Zhang](https://github.com/zhanghebuaa), [Shenghao Ren](https://www.wjrzm.com/), [Haolei Yuan](https://github.com/haolyuan),
+Jianhui Zhao, Fan Li, Shuangpeng Sun, Zhenghao Liang, [Tao Yu](https://ytrock.com/), Qiu Shen, Xun Cao
+
+# Overview
+<img src="docs/MoCap_20230422_182056.gif" width="50%"><img src="docs/MoCap_20230422_132043.gif" width="50%"><img src="docs/MoCap_20230422_151220.gif" width="50%"><img src="docs/MoCap_20230422_172438.gif" width="50%">
+
+# agreement
+
+
+# Demo
+Demo for visulization are coming soon!
+## TODO:
+- [ ] add demo for visulizing alignment between 2d keypoints and smpl gt
+- [ ] add demo for visulizing alignment between 3d depth and smpl gt
+
+# Datasets
+MMVP dataset are following the structure below.
+
+# Citation
+
+
+# License
