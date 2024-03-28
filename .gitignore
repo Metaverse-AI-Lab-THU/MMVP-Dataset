@@ -146,4 +146,4 @@ dmypy.json
 cython_debug/
 
 # initial files
-essentials
+# essentials

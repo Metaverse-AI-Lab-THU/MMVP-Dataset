@@ -17,12 +17,26 @@ Jianhui Zhao, Fan Li, Shuangpeng Sun, Zhenghao Liang, [Tao Yu](https://ytrock.co
 4. Tsinghua University reserves the right to terminate your access to the Dataset at any time.
 
 # Visualizing
-Visualizing code are coming soon!
-## TODO:
-- [ ] add demo for visulizing alignment between 2d keypoints and smpl gt
-- [ ] add demo for visulizing alignment between 3d depth and smpl gt
+Visualizing code has been released. Follow the step below for visualizing:
+1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSf1uLLqXfnVXR2MoyRv5bF9D5gEMc8m8YASa38sTohzVcaVUg/viewform?usp=sf_link) to request authorization to use Motion-X for non-commercial purposes. It may take one week to get reply. Or Contact [Tao Yu](https://ytrock.com/) at (ytrock@126.com).
+2. MMVP Dataset are following [this structure](#datasets-structure). 
+3. Users could visualize dataset with the command below:
+```
+sh demo.sh
+```
+You could change frame info in `configs/visualizing.yaml`.  
+`basdir` is the root where you put MMVP Dataset.    
+`dataset` is fixed as `20230422`.   
+`sub_ids` could be `S01...S12`  
+`seq_name` represents the seq under the `sub_ids` you select.   
+Noticing that `frame_idx` may not cover all frames and could be selected in `annotations/smpl_pose`.
 
-# Datasets
+We provide a few frames in `debug/` for visualizing. The visualizing result will be saved in `output/`. Here is a example for visualizing result: 
+
+<img src="output/renders_gt/20230422/S04/MoCap_20230422_135735/102.jpg" width="50%"><img src="output/insoles_gt/20230422/S04/MoCap_20230422_135735/102.jpg" width="30%">
+
+
+# Datasets Structure
 MMVP dataset are following the structure below:
 ```
 images
