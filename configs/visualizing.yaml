@@ -1,0 +1,14 @@
+# Flags for data set and data dirs
+dataset: '20230422'
+basdir: 'debug'
+sub_ids: 'S04'
+seq_name: 'MoCap_20230422_135735'
+output_dir: 'output/'
+model_gender: 'male' # teenager is male, others follow facts
+frame_idx: 102
+# color_size:
+#   - 1280
+#   - 720
+# depth_size:
+#   - 640
+#   - 576
