@@ -8,7 +8,7 @@ MMVP: A Multimodal MoCap Dataset with Vision and Pressure Sensors
 Jianhui Zhao, Fan Li, Shuangpeng Sun, Zhenghao Liang, [Tao Yu](https://ytrock.com/), Qiu Shen, Xun Cao
 
 # Overview
-<img src="docs/MoCap_20230422_172438.gif" width="50%"><img src="docs/MoCap_20230422_132043.gif" width="50%"><img src="docs/MoCap_20230422_151220.gif" width="50%"><img src="docs/MoCap_20230422_182056.gif" width="50%">
+<img src="docs/Mocap_20230422_172438.gif" width="50%"><img src="docs/Mocap_20230422_132043.gif" width="50%"><img src="docs/Mocap_20230422_151220.gif" width="50%"><img src="docs/Mocap_20230422_182056.gif" width="50%">
 
 # agreement
 1. The MMVP dataset (the "Dataset") is available for non-commercial research purposes only. Any other use, in particular any use for commercial purposes, is prohibited. This includes, without limitation, incorporation in a commercial product, use in a commercial service, as training data for a commercial product, for commercial ergonomic analysis (e.g. product design, architectural design, etc.), or production of other artifacts for commercial purposes including, for example, web services, movies, television programs, mobile applications, or video games. The dataset may not be used for pornographic purposes or to generate pornographic material whether commercial or not. The Dataset may not be reproduced, modified and/or made available in any form to any third party without Tsinghua University’s prior written permission.
@@ -18,7 +18,7 @@ Jianhui Zhao, Fan Li, Shuangpeng Sun, Zhenghao Liang, [Tao Yu](https://ytrock.co
 
 # Visualizing
 Visualizing code has been released. Follow the step below for visualizing:
-1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSf1uLLqXfnVXR2MoyRv5bF9D5gEMc8m8YASa38sTohzVcaVUg/viewform?usp=sf_link) to request authorization to use Motion-X for non-commercial purposes. It may take one week to get reply. Or Contact [Tao Yu](https://ytrock.com/) at (ytrock@126.com).
+1. Fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSf1uLLqXfnVXR2MoyRv5bF9D5gEMc8m8YASa38sTohzVcaVUg/viewform?usp=sf_link) to request authorization to use MMVP for non-commercial purposes. It may take one week to get reply. Or Contact [Tao Yu](https://ytrock.com/) at (ytrock@126.com).
 2. MMVP Dataset are following [this structure](#datasets-structure). 
 3. Users could visualize dataset with the command below:
 ```
